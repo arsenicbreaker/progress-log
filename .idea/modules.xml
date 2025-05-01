@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Function/Function.iml" filepath="$PROJECT_DIR$/Function/Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InputOutput.iml" filepath="$PROJECT_DIR$/InputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PropertiDanMetode/PropertiDanMetode.iml" filepath="$PROJECT_DIR$/PropertiDanMetode/PropertiDanMetode.iml" />
+    </modules>
+  </component>
+</project>
