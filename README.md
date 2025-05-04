@@ -17,5 +17,6 @@ This repo is a documentation and log of my progress in learning **Java** gradual
 This repo is still being updated according to the material I learned.
 
 ## 📚 source 
-[Dicoding - Belajar Dasar Pemrograman Java] https://www.dicoding.com/academies/60/
-Dokumentasi resmi Java: [docs.oracle.com](https://docs.oracle.com/javase/tutorial/)
+- [Dicoding - Belajar Dasar Pemrograman Java] https://www.dicoding.com/academies/60/
+- Dokumentasi resmi Java: [docs.oracle.com](https://docs.oracle.com/javase/tutorial/)
+- Video tutorial YouTube
