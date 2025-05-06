@@ -8,6 +8,7 @@ This repo is a documentation and log of my progress in learning **Java** gradual
 
 ## 📁 folder structure
 - Java fundamental (collection, input, output, class, object, if else statement)
+- Looping
 - Access Modifier
 - Function
 - Method and Property
