@@ -1,11 +1,20 @@
+import java.util.Scanner;
+
 public class forLoop {
     public static void main(String[] args) {
-        System.out.println("ini adalah awal program");
+        Scanner scanner = new Scanner(System.in);
 
-        for (int a = 0; a < 1; a++) {
-            System.out.println("for loop ke-" + (a + 1));
+        System.out.println("Penjumlahan deret aritmatika");
+        System.out.println("Masukkan nilai awal");
+        int nilaiAwal = scanner.nextInt();
+        System.out.println("Masukkan nilai akhir");
+        int nilaiAkhir = scanner.nextInt();
+
+        int jumlah = 0;
+        for (int i = nilaiAwal ; i <= nilaiAkhir; nilaiAwal++) {
+            System.out.println("Angka : " + i);
+            jumlah += i++;
         }
-
-        System.out.println("ini adalah akhir program");
+        System.out.println("Jumlah : " + jumlah);
     }
 }
