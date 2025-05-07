@@ -1,17 +1,18 @@
+import java.util.Scanner;
+
 public class whileLoop {
     public static void main(String[] args) {
-        boolean kondisi = true;
-        int a = 0;
-        System.out.println("awal program");
 
-        while (kondisi) {
-            System.out.println("while loop ke-" + a);
-            if (a == 10) {
-                kondisi = false;
-            }
-            a++;
+        System.out.println("Masukkan berapa kali pengulangan");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+
+        int i = 0;
+        while (i < number) {
+            System.out.println("Ini adalah perulangan ke " + i++);
+
         }
 
-        System.out.println("akhir program");
+        System.out.println("Kamu sudah melakukan perulangan sebanyak " + number + " kali");
     }
 }
