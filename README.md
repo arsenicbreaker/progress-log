@@ -13,6 +13,8 @@ This repo is a documentation and log of my progress in learning **Java** gradual
 - Function
 - Method and Property
 - Array
+- Leetcode (This folder contains my Java solutions to various some problems)
+
 
 ## 📌 note
 This repo is still being updated according to the material I learned.
