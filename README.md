@@ -21,6 +21,6 @@ This repo is still being updated according to the material I learned.
 
 ## 📚 source 
 - https://www.dicoding.com/academies/60/
-- docs.oracle.com](https://docs.oracle.com/javase/tutorial/
+- https://docs.oracle.com/javase/tutorial/
 - https://www.petanikode.com/java-perulangan/
 - https://www.hackerrank.com/domains/java?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=java
