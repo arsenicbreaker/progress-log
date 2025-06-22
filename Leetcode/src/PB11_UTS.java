@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tugasKuliah {
+public class PB11_UTS {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
