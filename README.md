@@ -25,3 +25,4 @@ This repo is still being updated according to the material I learned.
 - https://docs.oracle.com/javase/tutorial/
 - https://www.petanikode.com/java-perulangan/
 - https://www.hackerrank.com/domains/java?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=java
+- https://www.youtube.com/playlist?list=PLZS-MHyEIRo6V4_vk1s1NcM2HoW5KFG7i
