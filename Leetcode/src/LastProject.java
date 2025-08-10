@@ -1,39 +1,51 @@
 import java.util.Scanner;
 
 class Pendataan {
+    // membuat kelas untuk objek dari pendataan transaksi penjualan
     String nama;
     String barang;
     int jumlah;
     double total;
 
     public Pendataan(String nama, String barang, int jumlah) {
+        // constructor kelas pendataan
         this.nama = nama;
         this.barang = barang;
         this.jumlah = jumlah;
-        this.total = hitungTotal();
-    }
-
-    public void tampilkanInfo() {
-        System.out.println("PENDATAAN");
-        System.out.println("Nama customer : " + nama);
-        System.out.println("Nama barang : " + barang);
-        System.out.println("Total harga : " + total);
+        this.total = hitungTotal(); // menginisialisasi total dengan objek dari method hitungtotal
     }
 
     public double hitungTotal() {
         double hargaSatuan;
 
+        // conditional untuk menentukan masing masing harga barang
         if (barang.equalsIgnoreCase("KULKAS")) {
-            hargaSatuan = 2000000;
+            hargaSatuan = 3000000;
         } else if (barang.equalsIgnoreCase("TV")) {
-            hargaSatuan = 1500000;
-        } else if (barang.equalsIgnoreCase("MESIN CUCI")) {
-            hargaSatuan = 1800000;
+            hargaSatuan = 2500000;
+        } else if (barang.equalsIgnoreCase("LAPTOP")) {
+            hargaSatuan = 7000000;
         } else {
             hargaSatuan = 0;
         }
 
         return hargaSatuan * jumlah;
+        //return yang akan kembali ke objek total
+    }
+
+    // methood untuk menampilkan pendataan transaksi
+    public void tampilkanInfo() {
+        System.out.println("PENDATAAN");
+        System.out.println("Nama customer\t: " + nama);
+        System.out.println("Nama barang\t\t: " + barang);
+        System.out.println("Jumlah\t\t\t: " + jumlah);
+        System.out.println("Total harga\t\t: " + total);
+        // conditional untuk menentukan apakah pelanggan mendapat cashback atau tidak
+        if (total > 10000000){
+            System.out.println("Catatan\t\t: Anda mendapatkan cashback sebesar Rp.500.000");
+        }else{
+            System.out.println("Catatan\t\t: --");
+        }
     }
 
 
@@ -52,23 +64,24 @@ public class LastProject {
         // inisialisasi array
         Pendataan[] datanya = new Pendataan[n];
 
-
+        // looping untuk memasukkan value ke objek
         for(int i = 0;i<n;i++) {
             System.out.println("Transaksi ke -" + (i+1));
             System.out.print("Nama Pembeli : ");
             String nama = scanner.nextLine();
-            System.out.print("Nama Barang : ");
+            System.out.print("Nama Barang (Tv/Kulkas/Laptop): ");
             String barang = scanner.nextLine();
             System.out.print("Jumlah barang : ");
             int jumlah = scanner.nextInt();
             scanner.nextLine();
 
-            // membuat objek
+            // mengisi objek
             datanya[i] = new Pendataan(nama,barang,jumlah);
         }
 
-        for (int j = 0;j<n;j++) {
-            datanya[j].tampilkanInfo();
+        // looping untuk menampikan data penjualan
+        for (int i = 0;i<n;i++) {
+            datanya[i].tampilkanInfo();
         }
 
     }
