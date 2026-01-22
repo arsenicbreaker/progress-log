@@ -15,6 +15,7 @@ This repo is a documentation and log of my progress in learning **Java** gradual
 - Array
 - Leetcode (This folder contains my Java solutions)
   from hackerrank, leetcode, or my lecturer assignment
+  also my dummy project : calculator
 
 
 ## 📌 note
