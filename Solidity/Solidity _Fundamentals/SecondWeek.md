@@ -19,3 +19,4 @@ artinya function refill bisa di akses di luar kontrak tetapi hanya owner yg bisa
 2. external --> hanya bisa dipanggil di luar kontrak
 3. internal --> hanya bisa dipanggil di dalam kontrak itu sendiri & turunan/inheritence
 4. private --> hanya bisa dipanggil di dalam kontrak itu sendiri
+

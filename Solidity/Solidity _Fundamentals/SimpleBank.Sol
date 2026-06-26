@@ -22,7 +22,7 @@ contract SimpleBank {
         }
         _;
     }
-
+ 
     function deposit() external payable {
         balances[msg.sender] += msg.value;
     }
@@ -31,6 +31,7 @@ contract SimpleBank {
         if (balances[msg.sender] < amount) {
             revert SimpleBank__FundKurang();
         }
+
 
         (bool success, ) = msg.sender.call{value: amount}("");
         if (!success) {

@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+error VendingMachine__NotOwner();
+
 contract VendingMachine {
 
     // mendeklarasikan variabel state dari kontrak
